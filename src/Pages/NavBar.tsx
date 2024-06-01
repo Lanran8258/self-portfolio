@@ -3,11 +3,6 @@ import { Link } from "react-scroll";
 import { useState } from "react";
 
 export default function NavBar() {
-  const [hamburgerOpen, setHamburgerOpen] = useState(false);
-
-  const tuggleHamburger = () => {
-    setHamburgerOpen(!hamburgerOpen);
-  };
   return (
     <nav className="nav">
       <div>

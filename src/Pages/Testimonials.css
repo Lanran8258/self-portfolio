@@ -1,8 +1,9 @@
 .testimonials {
     background-color: azure;
+    margin: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     text-align: left;
     padding: 2rem;
 }
@@ -32,11 +33,11 @@
 @media (max-width: 932px)  {
     .testimonials {
         width: 100%;
+        margin: 0
     }
     .testimonials-sections {
         display: flex;
         flex-direction: column;
-        width: 100%;
         align-items: center;
     }
 }
